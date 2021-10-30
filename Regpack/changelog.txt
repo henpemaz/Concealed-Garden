@@ -1,0 +1,12 @@
+16/10/2021 - 1.0 - Initial release
+
+26/10/2021 - 1.1 - Bugfixes
+	- Attempted progression fixes:
+		Dream into passage progress should no longer cause progression to be lost.
+		Progression should now work correcly with slugbase independently of load-order.
+		More logs and checks in hopes to debug mysterious progression issues people were having.
+	- A certain room is no longer a confusing dead-end for Hunter.
+	- Hunter can no longer get stuck forever in a certain shelter.
+	- Fixed an issue in Hunter's sleep screen (thanks dry).
+	- A friend should stay a friend no matter how you look.
+	- Ships with updated ConcealedGarden.dll and RegionKit.dll

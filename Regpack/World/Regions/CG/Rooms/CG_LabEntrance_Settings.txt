@@ -1,0 +1,9 @@
+Template: NONE
+BkgDroneVolume: 0
+Palette: 25
+EffectColorA: 8
+EffectColorB: 6
+Effects: ElectricDeath-0.8043478-36-44, 
+PlacedObjects: LightSource><631.0503><111.2606><0.7282609~Environment~10~209~-79~-5.397469~1~0, LightSource><856.3325><222.4321><0.6304348~Environment~36~178~38~-98.39746~1~0, LightSource><418.0646><274.1749><0.6195652~Environment~-136~-168~50~86.60254~1~0, LightSource><804.4236><432.5992><0.5326087~Environment~168~22~-279~54.60254~1~0, CGGravityGradient><95.08209><647.8586><-227~28~0^-451~1~0~1, CGSongSFXGradient><445.0746><735.0961><23~-81~-9^-610~CG - Infinite Machines~0.1434784~0.2195653~2.085871, SuperStructureFuses><531.45><769.5012><45~25, SuperStructureFuses><331.8344><771.3621><40~40, SuperStructureFuses><531.5172><530.3008><40~40, SuperStructureFuses><712.4324><449.3118><40~40, SuperStructureFuses><771.8175><230.4183><40~40, SuperStructureFuses><291.856><289.3612><40~40, CGProgressionFilter><632.5639><86.57321><100~50~Either~Either~Either~No~-16^10, CGProgressionFilter><449.9449><745.5447><34~-141~Either~Either~Either~No~-21^-9, ExitSymbolHidden><634.3536><90.6362><, ExitSymbolHidden><450.3672><749.6495><, 
+AmbientSounds: SPOT><SO_SFX-LakeBottom.ogg><843.8835><39.1489><0.3043478><1.313043><630.8835><64.1489><-163.3553><314.6447><0><0.502174, SPOT><SO_SFX-Heartbeat2.ogg><780.0701><208.3375><0.25><0.7847826><563.0701><284.3375><-44.35535><-33.35535><0><0.154348, OMNI><AM_WIN-SubWnd.ogg><116.0822><460.0677><0.4021739><0.8826087, SPOT><AM_IND-ElectricHum03.ogg><440.1644><542.386><0.3043478><1><413.1644><762.386><-11.35535><-22.35535><0.3804348><0.2086958, SPOT><AM_IND-DeepHum.ogg><733.4293><307.8386><0.5><1><720.4293><486.8386><-35.35534><-35.35534><0><0.1, SPOT><SO_IND-FlourLight.ogg><415.1715><288.3972><0.5><1><336.1715><332.3972><-51.35535><-30.35535><0><0.154348, SPOT><SO_IND-Boiler.ogg><216.3936><501.6107><0.3043478><1.156522><-9.606445><633.6107><14.64465><-85.35535><0><0.1652175, 
+FadePalette: 17, 0.5

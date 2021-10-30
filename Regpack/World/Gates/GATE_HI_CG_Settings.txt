@@ -1,0 +1,10 @@
+Template: NONE
+RainIntensity: 0.6086956
+Clouds: 0.5
+Grime: 0.2717391
+Palette: 5
+EffectColorA: 8
+EffectColorB: 6
+PlacedObjects: LightSource><389.9334><256.67><0.4673913~Environment~-6~217~50~86.60254~1~0, LightSource><568.0613><257.9404><0.4565217~Environment~14~186~50~86.60254~1~0, LightSource><884.9985><245.45><0.2717391~Environment~-153~63~-263~54.60254~1~0, LightSource><156.1178><310.0883><0.2934783~Environment~-154~66~50~86.60254~1~0, NoSpearStickZone><475.4269><258.9362><9~266, 
+AmbientSounds: SPOT><SO_IND-Fridge.ogg><98.21069><472.4461><0.3043478><1><172.2107><458.4461><-36.35535><-40.35535><0><0.3065217, SPOT><AM_IND-DeepHum.ogg><752.9153><309.8874><0.4021739><1><482.9153><19.88736><-49.35535><42.64466><0><0.3391306, 
+FadePalette: 4, 0.3369565

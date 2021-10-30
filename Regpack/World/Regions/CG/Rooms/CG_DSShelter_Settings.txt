@@ -1,0 +1,8 @@
+Template: CG_SettingsTemplate_Inside
+DangerType: Flood
+RainIntensity: 1
+RumbleIntensity: 0.7065217
+Palette: 4
+PlacedObjects: CGDrySpot><395.0805><-88.60541><414^470, CGShelterRain><327.8323><182.641><, 
+AmbientSounds: OMNI><AM_IND-Warehouse01.ogg><734.8168><532.9199><0.1847826><0.8434783, OMNI><AM_IND-Utility02.ogg><737.8163><457.5613><0.2826087><1, OMNI><SO_WAT-DripTap.ogg><778.9886><309.4497><0.2826087><1, OMNI><SO_WAT-LilDrips.ogg><721.6068><193.1396><0.1413043><1, 
+FadePalette: 8, 0.1195652

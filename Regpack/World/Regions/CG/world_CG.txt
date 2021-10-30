@@ -1,0 +1,133 @@
+// Concealed Garden v1.0 15/10/2021
+ROOMS
+// HI SIDE
+GATE_HI_CG : DISCONNECTED, CG_Pipeworks1 : GATE
+(-1,0,2)CG_Pipeworks1 : CG_Planters, GATE_HI_CG, CG_VaporizersALT
+CG_Planters : CG_Pipeworks1, CG_Pipeworks2, DISCONNECTED : SWARMROOM
+CG_Pipeworks2 : CG_Shelter, CG_Planters, CG_Bridge
+
+// Monk cannot possibly miss the first shelter
+(1)CG_Pipeworks1 : CG_Planters, GATE_HI_CG, DISCONNECTED
+(1)CG_VaporizersALT : CG_Bridge, DISCONNECTED, CG_VapConnector
+
+// GREENHOUSE SIDE
+CG_Shelter : CG_Pipeworks2 : SHELTER
+(-1,0,2)CG_VaporizersALT : CG_Bridge, CG_Pipeworks1, CG_VapConnector
+CG_VapConnector : CG_Sprinkler, CG_VaporizersALT
+CG_Bridge : CG_Branches1, CG_Pipeworks2, CG_VaporizersALT
+CG_Sprinkler : DISCONNECTED, CG_OtherGate, CG_USentrance, CG_VapConnector : SWARMROOM
+
+// UNDERSIDE
+CG_USentrance : CG_Sprinkler, CG_USpump
+CG_USpump : CG_USentrance, CG_UScenterW
+CG_UScenterW : CG_USroot, CG_USpump
+CG_USroot : CG_UScenterE, CG_UScenterW, CG_RootShelter
+CG_UScenterE : CG_USroot, CG_TallTank, DISCONNECTED
+CG_RootShelter : CG_USroot : SHELTER
+
+// LEFT ROOT
+CG_OtherGate : CG_Sprinkler, CG_HermitCave : GATE
+(-1,0,1)CG_HermitCave : CG_OtherGate, DISCONNECTED : SCAVTRADER
+(2)CG_HermitCave : CG_OtherGate, DISCONNECTED
+CG_TallTank : CG_UScenterE, CG_Drain2, CG_EastRoot
+
+// TREETOP
+CG_Branches1 : CG_Branches2, CG_Bridge
+CG_Branches2 : CG_Branches3, CG_Branches1
+(-1,0,2)CG_Branches3 : CG_Hideout, CG_TreeCore, CG_Branches2
+(1)CG_Branches3 : CG_Hideout, CG_TreeCore, CG_Branches2 : SWARMROOM
+CG_EastBranch : CG_TreetopGate, CG_Hideout, CG_EastMidpoint : SWARMROOM
+CG_EastMidpoint : CG_EastBranch, CG_TreeCore, CG_EastRoot
+CG_TreetopGate : CG_Treetop, CG_EastBranch : GATE
+CG_Treetop : CG_TreetopGate : SWARMROOM
+
+// TREE CORE
+CG_Bunker : DISCONNECTED, DISCONNECTED, CG_Hideout : SHELTER
+CG_Hideout : CG_Bunker, CG_EastBranch, CG_Branches3, CG_TreeCore
+CG_TreeCore : CG_Hideout, CG_Branches3, CG_EastMidpoint, CG_LabEntrance
+CG_LabEntrance : CG_TreeCore, CG_LRU
+CG_LRU : CG_LabEntrance, CG_LRUCore
+CG_LRUCore : DISCONNECTED, CG_LRU, CG_Lab
+CG_Lab : CG_LRUCore
+
+// RIGHT ROOT
+CG_EastRoot : CG_EastMidpoint, CG_CabinetShelter, DISCONNECTED, CG_TallTank, CG_Drain1
+CG_CabinetShelter : CG_EastRoot : SHELTER
+
+// DRAINAGE SIDE
+CG_Drain1 : CG_EastRoot, CG_Drain2
+CG_Drain2 : CG_TallTank, CG_Drain1, CG_Pipeworks2A, CG_Drain3
+CG_Drain3 : CG_Drain2, DISCONNECTED, DISCONNECTED, GATE_DS_CG
+GATE_DS_CG : CG_Drain3, DISCONNECTED, CG_DSShelter : GATE
+CG_DSShelter : GATE_DS_CG : SHELTER
+
+// Extras
+CG_Pipeworks2A : CG_Drain2, CG_SkyLine, CG_LeftWing
+CG_SkyLine : CG_Pipeworks2A : SHELTER
+CG_LeftWing : CG_Pipeworks2A, DISCONNECTED, CG_Line1, DISCONNECTED, DISCONNECTED
+CG_Line1 : CG_LeftWing : SHELTER
+
+END ROOMS
+
+CREATURES
+// OFFSCREEN
+// Offscreen lineage doesnt seem to be working with CRS atm
+//LINEAGE : OFFSCREEN : 0 : NONE-0.07, Vulture-0.3, NONE-0.05, KingVulture-0
+OFFSCREEN : 0-Vulture-{cgfriend:2}
+(2)OFFSCREEN : 0-Vulture-{cgfriend:2}
+// Local hermit: if you kill him he becomes very sad and travels elsewhere to restore inner peace
+// LINEAGE : OFFSCREEN : 0 : Scavenger-1.0, NONE-0
+(0,1)OFFSCREEN : 0-Scavenger-{cgid:1503,cgtrader:CG_HermitCave,cgsympathy:1,cgfriend}
+(2)OFFSCREEN : 0-Scavenger-4
+
+// GREENHOUSE SIDE
+LINEAGE : CG_Planters : 4 : Pink-0.4, Blue-0.2, Cyan-0
+(0,1)CG_Bridge : 3-Green
+(2)CG_Bridge : 3-Red
+CG_VaporizersALT : 3-Pink
+(2)LINEAGE : CG_VaporizersALT : 4 : Green-0.4, Red-1, NONE-0
+
+// LEFT ROOT
+CG_Sprinkler : 4-BigNeedleWorm, 5-SmallNeedleWorm-2
+(0,2)LINEAGE : CG_Sprinkler : 6 : Green-{cglike:0.5}-0.4, Green-{mean:0.5,cgaggression:1,cgenergy:0.90}-0.4, Red-{cginnate,cgenergy:1,cgaggression:1}-0
+
+// UNDERSIDE
+LINEAGE : CG_UScenterW : 2 : NONE-0.25, EggBug-0
+LINEAGE : CG_UScenterW : 3 : Green-0.2, Pink-0.4, Blue-0.5, Red-0
+(0)LINEAGE : CG_UScenterE : 3 : NONE-0.25, Dropwig-0.6, NONE-0
+(2)CG_UScenterE : 3-Dropwig
+(0,2)LINEAGE : CG_UScenterE : 4 : Pink-0.4, Blue-0.5, White-0.5, Cyan-{cgid:1366}-0
+
+// TREETOP
+(0,2)CG_Branches3 : 4-White-{mean:0.2}
+(1)CG_Branches3 : 4-Blue-{mean:0.2}
+(1,2)CG_Branches3 : 3-EggBug
+LINEAGE : CG_TreeCore : 4 : BigSpider-{cgfriend}-0.2, Dropwig-0
+LINEAGE : CG_EastBranch : 3 : White-{mean:0.2}-0.2, Blue-{cgfear:0.5,cgknow:0.3}-0.5, Cyan-{cgmale,cginnate,cglike:0.4,cgknow:0.3}-0
+(0,2)LINEAGE : CG_EastBranch : 4 : BigSpider-{cgfriend}-0.4, CicadaB-{cgfriend}-0.6, CicadaA-{cgfriend,cglike,cgknow}-0
+
+// RIGHT ROOT
+CG_EastMidpoint : 3-Yellow-{mean:0.5,cgmale:1,cghappy:0.4}, 4-Yellow-{cgmale:0,cgdominance:0}
+LINEAGE : CG_EastMidpoint : 5 : NONE-0.04, Yellow-{cghappy:0.4,cginnate,cglike:0.91}-1.0-Yellow-{cghappy:0.3,cginnate,cglike:0.49}-0
+(0)CG_EastRoot : 6-Centipede-{0.3}
+(1)CG_EastRoot : 6-Centipede-{0.22}
+(2)CG_EastRoot : 6-Centipede-{0.5}
+
+// DRAINAGE SIDE
+CG_Drain1 : 2-Mimic-{5}, 4-Leech-12
+LINEAGE : CG_Drain2 : 4 : NONE-0.25, EggBug-0
+CG_Drain2 : 5-SmallCentipede-2
+LINEAGE : CG_Drain2 : 6 : Centipede-{0.4}-0.2, Centipede-{0.6}-0.5, Centipede-{0.8}-1.0, Centipede-{1.0}-1.0, RedCentipede-1.0, NONE-0
+
+END CREATURES
+
+BAT MIGRATION BLOCKAGES
+(0,2)CG_Bunker
+(0,2)CG_Branches3
+(0,2)CG_Branches2
+(0,2)CG_Branches1
+(0,2)CG_Hideout
+CG_TreeCore
+CG_LabEntrance
+CG_TreetopGate
+END BAT MIGRATION BLOCKAGES

@@ -1,0 +1,2 @@
+Template: CG_SettingsTemplate_Inside
+FadePalette: 4, 0.3043478

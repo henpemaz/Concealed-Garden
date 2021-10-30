@@ -1,0 +1,10 @@
+// A gate within a region that can be crossed with enough karma in one direction, and is freely crossed in the other in the same cycle.
+// There may or may not be a stash in the other side, the player can get to it and come back out through the same gate without need for a shelter.
+CG_OtherGate : 3alt : Open : Multi
+CG_TreetopGate : Open : Comsmark : Multi
+
+// Changes a vanilla gate so that it can only be crossed left-to-right, uses alternate art for karma 2
+//GATE_HI_CC : 2alt : forbidden
+
+// a commented out gate for testing
+// GATE_HI_CG : 4 : uwu

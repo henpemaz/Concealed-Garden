@@ -1,0 +1,14 @@
+TH_CG - Arpeggio : NEUTRAL
+TH_CG - Lead : NEUTRAL
+TH_CG - Beat : NEUTRAL
+TH_CG - Shake : NEUTRAL
+TH_CG - Kick : NEUTRAL
+TH_CG - Noise : NEUTRAL
+
+
+Layer : TH_CG - Noise, TH_CG - Kick
+Layer : TH_CG - Noise, TH_CG - Kick, TH_CG - Shake , TH_CG - Beat
+Layer : TH_CG - Noise, TH_CG - Kick, TH_CG - Shake , TH_CG - Beat
+Layer : TH_CG - Shake , TH_CG - Beat, TH_CG - Lead
+Layer : TH_CG - Beat, TH_CG - Lead, TH_CG - Arpeggio
+Layer : TH_CG - Beat, TH_CG - Lead, TH_CG - Arpeggio

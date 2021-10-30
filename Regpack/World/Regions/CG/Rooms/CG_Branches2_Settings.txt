@@ -1,0 +1,4 @@
+Template: CG_SettingsTemplate_Treeside
+PlacedObjects: ClimbableRope><574.8036><563.9625><0~-396, ClimbableRope><389.1972><549.4667><3~-352, ClimbableRope><389.4474><1091.468><-1~-243, ClimbableRope><194.1532><494.8714><0~-242, ClimbableRope><597.449><1111.48><5~-224, DangleFruit><627.574><490.4051><-50~-203~2~3, DangleFruit><658.679><467.3131><-73~-103.0045~2~3, DangleFruit><722.6558><1008.625><105~-209~2~3, DangleFruit><688.9279><1020.091><88~-199~2~3, DangleFruit><485.8597><1227.392><37~-175~2~3, DangleFruit><463.6726><1193.149><7~-202~2~3, 
+AmbientSounds: SPOT><AM_IND-ElectricHum02.ogg><768.301><277.7699><0.4130435><1><949.301><1080.77><-35.35534><-35.35534><0><0.1, 
+FadePalette: 5, 0.4021739, 0.5

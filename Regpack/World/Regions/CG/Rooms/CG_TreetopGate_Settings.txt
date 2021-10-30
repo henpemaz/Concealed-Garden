@@ -1,0 +1,4 @@
+Template: CG_SettingsTemplate_TreeInside
+PlacedObjects: CGGateCustomization><529.5864><-9.634979><100~50~True~True~True~True, NoSpearStickZone><477.5146><250.5505><36~227, 
+AmbientSounds: SPOT><AM_IND-50hz.ogg><826.0649><335.4243><0.423913><0.9021739><482.0649><376.424><-15.35535><-89.35535><0><0.1760871, 
+FadePalette: 3, 0.423913

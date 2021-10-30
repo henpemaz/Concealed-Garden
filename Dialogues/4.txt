@@ -1,0 +1,7 @@
+0-4
+The beginning of the data suggests this would once contained... research logs on live specimen.
+According to the first entry, these were conducted by a group of Triangulators in a facility not far from here. <LINE>Looks like they had an array of sentient organisms wired to a simulation of this world, but rigged so that they would <LINE>seek personal ascension while being monitored for signs linked to ascending.
+At the end of the first log, there should be the results for the initial neural scan for test subjects. <LINE>The first three are intact, but it all ends abruptely on the fourth.
+Instead there is... this. <LINE>StackOverflowException: The requested operation caused a stack overflow. AbstractCreature.Abstractize (WorldCoordinate) <0x00739>; <LINE>AbstractCreature.Abstractize (WorldCoordinate) <0x00739>; AbstractCreature.Abstractize (WorldCoordinate) <0x00739>...
+The rest of the data is the same gibberish repeated over and over. I have never seen data corruption like this, little one.
+Thinking about it makes me feel uneasy for some reason.

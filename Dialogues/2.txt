@@ -1,0 +1,7 @@
+0-2
+This contains several sets of protein chain formulas and tissue plasterization sequence equations. <LINE>This was likely a part of a larger message that did not fit on a single drive.
+If I had to guess, I would say this has something to do with manufacturing of either radio equipment or power line repair utilities. <LINE>Most of the resulting compounds described here would have good conductivity, high temperature tolerance, or both.
+Ah, reading this brings up a memory... Not a particularly useful one, but it's interesting non the less.
+At some point, decentralized processing used to be THE big thing. Lots of communities tried to fit anything <LINE>in their infrastructure that had a couple brain cells idling with transmitter addons - utilizing its spare processing power <LINE>and routing every possible bit of energy towards the big goal...
+However, most units were highly specialized for its own tasks, so this did not give as much of a boost as expected. <LINE>Even worse - in some cases installing transmitter addons had bizzare side effects, causing malfunctions of all sorts. <LINE>Whether that was due to design flaws or negligence of the users, it isn't known.
+But the trend died out very quickly as a result.

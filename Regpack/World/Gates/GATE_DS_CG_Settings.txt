@@ -1,0 +1,10 @@
+Template: NONE
+DangerType: FloodAndRain
+Clouds: 0.5
+Grime: 0.2717391
+Palette: 4
+EffectColorA: 8
+EffectColorB: 6
+PlacedObjects: ExitSymbolShelter><732.8007><113.7657><, NoSpearStickZone><485.6115><253.416><-265~120, 
+AmbientSounds: SPOT><AM_IND-ElectricHum02.ogg><788.8823><284.35><0.423913><1><482.8823><412.35><5.644653><-93.35535><0><0.3500001, 
+FadePalette: 8, 0.08695652

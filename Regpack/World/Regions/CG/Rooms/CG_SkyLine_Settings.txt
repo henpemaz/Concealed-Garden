@@ -1,0 +1,3 @@
+Template: CG_SettingsTemplate_Treeside
+PlacedObjects: CGSkyLine><273.5514><449.2736><100~50~139^112~0, ShelterBhvrManager><437.8699><-1.348114><100~50~True~True~3~False~3~6~20~40~60~203~120~207~False~0, ShelterBhvrTriggerZone><444.0679><304.6672><64~33, RoomPopupTrigger><-82.90686><346.3741><100~50~CG_SkyLine - Movable shelter by Henpemaz~1.956522~4.0761~-1~1~True~True~1, RoomPopupTrigger><-88.10437><127.0794><100~50~... won't really take you anywhere though :(~7.826087~6~-1~1~True~True~1, 
+FadePalette: 5, 0.3043478

@@ -1,0 +1,2 @@
+GATE_HI_CG : 4 : 2
+GATE_DS_CG : 3 : 3

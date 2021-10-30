@@ -1,0 +1,13 @@
+{
+   "regionPackName": "Concealed Garden", 
+   "description": "The ancients didn't build just machines of steel and cities of stone, for the biggest secrets of the universe always hid on what is alive.", 
+   "author": "Henpemaz, Thalber", 
+   "activated": true, 
+   "loadOrder": 100, 
+   "regions": "CG", 
+   "thumbURL": "https://i.imgur.com/khkolLp.png", 
+   "version": "1.1", 
+   "requirements": "Climbables, ConcealedGarden, ExtendedGates, RegionKit, LizardSkin, PopupsMod, ShelterBehaviors", 
+   "useRegionName": true, 
+   "checksum": "b91600a3a93f41b8874bd21f1ce4f7e4" 
+}

@@ -1,0 +1,4 @@
+Template: CG_SettingsTemplate_Inside
+PlacedObjects: RoomPopupTrigger><278.4671><939.803><100~50~Find more in the other exits~14.34783~6~-1~1~True~True~1, RoomPopupTrigger><277.9337><1164.671><100~50~Room - CG_Pipeworks2A by Thalber~8.478261~6~-1~1~True~True~1, RoomPopupTrigger><298.8972><1359.886><100~50~Concealed Garden - Cut Content~1.956522~6~-1~1~True~True~1, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>CG - Book of Rains<eA>vol<eB>0.2021737<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>600<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>52<tA>panPos<tB>674.4385<tB>457.3097<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB>111<tA>pos<tB>233.4385<tB>1432.31<tA>handlePos<tB>-103.3553<tB>-13.35535, 
+FadePalette: 4, 0.4021739, 0.4021739, 0.4021739

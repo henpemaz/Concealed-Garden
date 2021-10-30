@@ -1,0 +1,21 @@
+DangerType: Flood
+CeilingDrips: 0.5
+RainIntensity: 0.6956522
+RumbleIntensity: 0.6956522
+WaveSpeed: 0.75
+WaveLength: 0.5
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.5
+Grime: 0.1086956
+BkgDroneVolume: 0.0
+BkgDroneNoThreatVolume: 1
+RandomItemDensity: 0.5
+RandomItemSpearChance: 0.2
+WaterReflectionAlpha: 1
+Palette: 24
+EffectColorA: 8
+EffectColorB: 6
+Effects: ZeroG-1-20-20, ZeroGSpecks-0.3369565-20-68, ElectricDeath-0.6956522-528-22, SunBlock-1-20-127, 
+AmbientSounds: OMNI><SO_SFX-LakeBottom.ogg><833.687><520.6791><0.3369565><1.254348, 

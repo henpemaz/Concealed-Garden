@@ -1,0 +1,4 @@
+1 : yellow_craft : f88104 : ff4302 : 1319887822
+2 : communication_modules : 3a1f27 : 7e4c5b : -171059451
+3 : programmer : e3cce1 : cd93aa : 162374735
+4 : programmer_alt : c06d91 : 924064 : 1992396217

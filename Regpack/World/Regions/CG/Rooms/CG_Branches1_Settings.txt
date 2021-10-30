@@ -1,0 +1,4 @@
+Template: CG_SettingsTemplate_Treeside
+PlacedObjects: ClimbableRope><606.4737><592.6982><2~-205, ClimbableRope><415.0887><599.3207><0~-178, ClimbableRope><274.4437><621.7001><-1~-178, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>CG - Fleeting Reminiscence<eA>vol<eB>0.2565215<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>12<eA>fadeIn<eB>91.30434<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>408.4338<tB>293.0787<tA>fireChance<tB>1<tA>entrance<tB>1<tA>karma<tB>0<tA>slugcats<tB>111<tA>pos<tB>778.4338<tB>249.0787<tA>handlePos<tB>-45.35535<tB>-37.35535, 
+FadePalette: 5, 0.6086956

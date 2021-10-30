@@ -1,0 +1,9 @@
+Template: NONE
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+Grime: 0.25
+RandomItemDensity: 0
+Palette: 35
+PlacedObjects: CGGravityGradient><441.3456><157.9257><100~50~-41^0~1~0~1, CGLifeSimProjectionSegment><625.8262><164.849><293~106, CGElectricArcGenerator><869.3477><280.3796><3~-183~8FA8FA~030AFF~-200^4~0^148~-1^146~True~8~0.5~1.673916~4~0.05~0.005~0.05~0.05~0.5~0~0~400~0.07847838~75~0.7173913, RoomPopupTrigger><1244.379><419.4026><100~50~"The Obervatory" concept%2based on an idea by Thalber~1.956522~7.282622~-1~1~True~True~1, 
+AmbientSounds: SPOT><AM_IND-DeepHum.ogg><761.938><306.9319><0.5><1.293478><678.938><-39.06815><-176.3553><44.64465><0.4021739><0.4369566, 

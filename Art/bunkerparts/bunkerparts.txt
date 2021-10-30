@@ -1,0 +1,99 @@
+{"frames": {
+
+"bkr_sidebeam.png":
+{
+	"frame": {"x":0,"y":0,"w":10,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":40},
+	"sourceSize": {"w":10,"h":40}
+},
+"bkr_beam_top.png":
+{
+	"frame": {"x":10,"y":0,"w":10,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":10},
+	"sourceSize": {"w":10,"h":10}
+},
+"bkr_beam_mid.png":
+{
+	"frame": {"x":10,"y":10,"w":10,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":20},
+	"sourceSize": {"w":10,"h":20}
+},
+"bkr_beam_bot.png":
+{
+	"frame": {"x":10,"y":30,"w":10,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":10},
+	"sourceSize": {"w":10,"h":10}
+},
+"bkr_lidA_left.png":
+{
+	"frame": {"x":20,"y":0,"w":10,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":20},
+	"sourceSize": {"w":10,"h":20}
+},
+"bkr_lidA_mid.png":
+{
+	"frame": {"x":30,"y":0,"w":20,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":20},
+	"sourceSize": {"w":20,"h":20}
+},
+"bkr_lidA_right.png":
+{
+	"frame": {"x":50,"y":0,"w":10,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":20},
+	"sourceSize": {"w":10,"h":20}
+}"bkr_lidB_left.png":
+{
+	"frame": {"x":20,"y":20,"w":10,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":20},
+	"sourceSize": {"w":10,"h":20}
+},
+"bkr_lidB_mid.png":
+{
+	"frame": {"x":30,"y":20,"w":20,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":20},
+	"sourceSize": {"w":20,"h":20}
+},
+"bkr_lidB_right.png":
+{
+	"frame": {"x":50,"y":20,"w":10,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":20},
+	"sourceSize": {"w":10,"h":20}
+},
+"bkr_cog.png":
+{
+	"frame": {"x":60,"y":0,"w":20,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":20},
+	"sourceSize": {"w":20,"h":20}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "bunkerparts.png",
+	"format": "RGBA8888",
+	"size": {"w":80,"h":40},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:67c8482ad0c0e2baae58505e923e64b2:74ce02e1680b2a11344510742bf0321d:9879b0c07ec6050778bc3fbde2f55dd1$"
+}
+}
