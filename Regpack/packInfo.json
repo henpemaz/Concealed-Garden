@@ -6,8 +6,8 @@
    "loadOrder": 100, 
    "regions": "CG", 
    "thumbURL": "https://i.imgur.com/khkolLp.png", 
-   "version": "1.1", 
+   "version": "1.2", 
    "requirements": "Climbables, ConcealedGarden, ExtendedGates, RegionKit, LizardSkin, PopupsMod, ShelterBehaviors", 
    "useRegionName": true, 
-   "checksum": "b91600a3a93f41b8874bd21f1ce4f7e4" 
+   "checksum": "131abd8734a57aebc3e944eeeccd9bb5" 
 }

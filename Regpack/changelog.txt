@@ -10,3 +10,6 @@
 	- Fixed an issue in Hunter's sleep screen (thanks dry).
 	- A friend should stay a friend no matter how you look.
 	- Ships with updated ConcealedGarden.dll and RegionKit.dll
+
+26/12/2021 - 1.2 - Bugfixes
+	- Hopefully squashed out progression-related bugs

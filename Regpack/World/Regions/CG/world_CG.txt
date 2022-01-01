@@ -1,4 +1,4 @@
-// Concealed Garden v1.0 15/10/2021
+// Concealed Garden v1.2 26/12/2021
 ROOMS
 // HI SIDE
 GATE_HI_CG : DISCONNECTED, CG_Pipeworks1 : GATE
@@ -89,7 +89,7 @@ CG_VaporizersALT : 3-Pink
 
 // LEFT ROOT
 CG_Sprinkler : 4-BigNeedleWorm, 5-SmallNeedleWorm-2
-(0,2)LINEAGE : CG_Sprinkler : 6 : Green-{cglike:0.5}-0.4, Green-{mean:0.5,cgaggression:1,cgenergy:0.90}-0.4, Red-{cginnate,cgenergy:1,cgaggression:1}-0
+(0,2)LINEAGE : CG_Sprinkler : 6 : Green-{cglike:0.5}-0.4, Green-{mean:0.5,cgaggression:1,cgenergy:0.90}-0.4, Red-{cgenergy:1,cgaggression:1}-0
 
 // UNDERSIDE
 LINEAGE : CG_UScenterW : 2 : NONE-0.25, EggBug-0
@@ -103,12 +103,12 @@ LINEAGE : CG_UScenterW : 3 : Green-0.2, Pink-0.4, Blue-0.5, Red-0
 (1)CG_Branches3 : 4-Blue-{mean:0.2}
 (1,2)CG_Branches3 : 3-EggBug
 LINEAGE : CG_TreeCore : 4 : BigSpider-{cgfriend}-0.2, Dropwig-0
-LINEAGE : CG_EastBranch : 3 : White-{mean:0.2}-0.2, Blue-{cgfear:0.5,cgknow:0.3}-0.5, Cyan-{cgmale,cginnate,cglike:0.4,cgknow:0.3}-0
+LINEAGE : CG_EastBranch : 3 : White-{mean:0.2}-0.2, Blue-{cgfear:0.5,cgknow:0.3}-0.5, Cyan-{cglike:0.4,cgknow:0.3}-0
 (0,2)LINEAGE : CG_EastBranch : 4 : BigSpider-{cgfriend}-0.4, CicadaB-{cgfriend}-0.6, CicadaA-{cgfriend,cglike,cgknow}-0
 
 // RIGHT ROOT
-CG_EastMidpoint : 3-Yellow-{mean:0.5,cgmale:1,cghappy:0.4}, 4-Yellow-{cgmale:0,cgdominance:0}
-LINEAGE : CG_EastMidpoint : 5 : NONE-0.04, Yellow-{cghappy:0.4,cginnate,cglike:0.91}-1.0-Yellow-{cghappy:0.3,cginnate,cglike:0.49}-0
+CG_EastMidpoint : 3-Yellow-{mean:0.5}, 4-Yellow-{cgdominance:0}
+LINEAGE : CG_EastMidpoint : 5 : NONE-0.04, Yellow-{cglike:0.91}-1.0-Yellow-{cglike:0.49}-0
 (0)CG_EastRoot : 6-Centipede-{0.3}
 (1)CG_EastRoot : 6-Centipede-{0.22}
 (2)CG_EastRoot : 6-Centipede-{0.5}
